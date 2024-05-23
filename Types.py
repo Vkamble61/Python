@@ -13,7 +13,7 @@ print(int(1.1))
 # Convert a string into an integer
 print(int('1'))
 # Convert a string into an integer with error -- (string that is not a perfect match for a number)
-print(int('1 or 2 people'))
+# print(int('1 or 2 people'))
 # Convert the string "1.2" into a float
 print(float('1.2'))
 # Convert an integer to a string
@@ -27,8 +27,4 @@ print(int(True))
 # Convert 1 to boolean
 print(bool(1))
 print(type(4/2)) #float
-<<<<<<< HEAD
 print(type(4//2)) # int, as the double slashes stand for integer division 
-=======
-print(type(4//2)) # int, as the double slashes stand for integer division 
->>>>>>> 7c774c32f918bc1cea5783694ef44fe1963d97da
