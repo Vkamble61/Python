@@ -27,4 +27,8 @@ print(int(True))
 # Convert 1 to boolean
 print(bool(1))
 print(type(4/2)) #float
+<<<<<<< HEAD
 print(type(4//2)) # int, as the double slashes stand for integer division 
+=======
+print(type(4//2)) # int, as the double slashes stand for integer division 
+>>>>>>> 7c774c32f918bc1cea5783694ef44fe1963d97da
