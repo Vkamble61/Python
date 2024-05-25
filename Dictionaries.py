@@ -1,4 +1,4 @@
-# Keys can only be strings, numbers, or tuples, but values can be any data type.
+""" Keys can only be strings, numbers, or tuples, but values can be any data type."""
 #Create an empty Directory product
 product = {}
 # Create a sample dictionary
@@ -22,8 +22,8 @@ release_year_dict['Graduation'] = '2007'
 print("Adding Graduation key ",release_year_dict)
 
 # Delete entries by key
-del(release_year_dict['Thriller'])
-del(release_year_dict['Graduation'])
+del release_year_dict['Thriller']
+del release_year_dict['Graduation']
 print(" Deleted Thriller and Graduation key ",release_year_dict)
 
 # Verify the key is in the dictionary
